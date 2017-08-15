@@ -1,0 +1,10 @@
+version: '3.2'
+services:
+    tomcat:
+        image: x.coe.phuket.psu.ac.th:50003/tomcat
+        ports:
+            - 8080:8080
+        volumes:
+            - /d/tomcat/webapps:/usr/local/tomcat/webapps
+            - /d/tomcat/conf:/usr/local/tomcat/conf
+        container_name: tomcat
