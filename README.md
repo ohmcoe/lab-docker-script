@@ -5,7 +5,7 @@
 2. Setting share drive d on docker 
 
 
-## Download program
+## Download 
 1. Clone or download repository
 ```
 d:\> git clone https://github.com/ohmcoe/lab-tomcat.git d:\tomcat
