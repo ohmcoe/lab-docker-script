@@ -2,33 +2,39 @@
 
 ## Prerequire
 1. Start docker for windows 
-2. Setting share drive d on docker 
+2. Setting share drive d or e or other on docker 
 
 
 ## Download 
-1. Clone or download repository
+Clone/download repository
 
 External server
 ```
-d:\> git clone https://github.com/ohmcoe/lab-tomcat.git d:\tomcat
+D:\> git clone https://github.com/ohmcoe/lab-tomcat.git d:\tomcat
 ```
+
+**OR**
 
 Internal server
 ```
-d:\> git clone http://gitlab.coe.phuket.psu.ac.th/sakarin.k/lab-tomcat.git d:\tomcat
+D:\> git clone http://gitlab.coe.phuket.psu.ac.th/sakarin.k/lab-tomcat.git d:\tomcat
 ```
 
 ## Start tomcat
 ```
-d:\tomcat> docker-compose up -d
+D:\tomcat> docker-compose up -d
 ```
 
 ## Stop tomcat
 ```
-d:\tomcat> docker-compose down
+D:\tomcat> docker-compose down
 ```
 
 ## File location
 Webapps dir: D:\tomcat\webapps
 
 Config dir: D:\tomcat\conf
+
+
+## Start URL 
+http://localhost:8080

@@ -5,6 +5,6 @@ services:
         ports:
             - 8080:8080
         volumes:
-            - /d/tomcat/webapps:/usr/local/tomcat/webapps
-            - /d/tomcat/conf:/usr/local/tomcat/conf
+            - ./webapps:/usr/local/tomcat/webapps
+            - ./conf:/usr/local/tomcat/conf
         container_name: tomcat
