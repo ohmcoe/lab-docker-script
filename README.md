@@ -2,7 +2,7 @@
 
 ## Prerequire
 1. Start docker for windows 
-2. Setting share drive d on docker 
+2. Setting share drive d or e or other on docker 
 
 
 ## Download 
@@ -32,3 +32,7 @@ d:\tomcat> docker-compose down
 Webapps dir: D:\tomcat\webapps
 
 Config dir: D:\tomcat\conf
+
+
+## Start URL 
+http://localhost:8080
