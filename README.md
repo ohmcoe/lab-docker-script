@@ -7,8 +7,15 @@
 
 ## Download 
 1. Clone or download repository
+
+External server
 ```
 d:\> git clone https://github.com/ohmcoe/lab-tomcat.git d:\tomcat
+```
+
+Internal server
+```
+d:\> git clone http://gitlab.coe.phuket.psu.ac.th/sakarin.k/lab-tomcat.git d:\tomcat
 ```
 
 ## Start tomcat
