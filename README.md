@@ -31,7 +31,7 @@ D:\tomcat> docker-compose down
 ```
 
 ## Show server log
-D:\tomcat> docker logs -f tomcat
+D:\tomcat> docker logs -f tomcat   
 
 ## File location
 Webapps dir: D:\tomcat\webapps
