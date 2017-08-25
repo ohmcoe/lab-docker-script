@@ -35,6 +35,8 @@ Webapps dir: D:\tomcat\webapps
 
 Config dir: D:\tomcat\conf
 
+Tomcat lib dir: D:\tomcat\lib
+
 
 ## Start URL 
 http://localhost:8080
@@ -45,4 +47,4 @@ D:\tomcat> javac -cp D:\tomcat\lib\*.jar *.java
 ```
 
 ## Note: Use for external university network
-Delete or docker-compose.yml and rename docker-compose-external.yml to docker-compose.yml
+Delete docker-compose.yml and rename docker-compose-external.yml to docker-compose.yml
