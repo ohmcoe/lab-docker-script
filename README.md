@@ -1,4 +1,4 @@
-# Getting start
+#How to use
 
 ## Prerequire
 1. Start docker for windows 
@@ -41,10 +41,10 @@ Tomcat lib dir: D:\tomcat\lib
 ## Start URL 
 http://localhost:8080
 
-## How to compile .class from java
+## Compile java with tomcat lib 
 ```
 D:\tomcat> javac -cp D:\tomcat\lib\*.jar *.java
 ```
 
-## Note: Use for external university network
+## Note: If Use from external university network
 Delete docker-compose.yml and rename docker-compose-external.yml to docker-compose.yml
