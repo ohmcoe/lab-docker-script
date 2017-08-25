@@ -38,3 +38,11 @@ Config dir: D:\tomcat\conf
 
 ## Start URL 
 http://localhost:8080
+
+## How to compile .class from java
+```
+D:\tomcat> javac -cp D:\tomcat\lib\*.jar *.java
+```
+
+## Note: Use for external university network
+Delete or docker-compose.yml and rename docker-compose-external.yml to docker-compose.yml
