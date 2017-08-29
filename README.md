@@ -46,7 +46,7 @@ http://localhost:8080
 
 ## Compile java with tomcat lib 
 ```
-D:\tomcat> javac -cp D:\tomcat\lib\*.jar *.java
+D:\tomcat> javac -cp D:\tomcat\lib\* *.java
 ```
 
 ## Note: If Use from external university network
